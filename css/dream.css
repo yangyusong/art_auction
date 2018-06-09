@@ -1,0 +1,288 @@
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.block{
+    display: block;
+}
+
+.white_bg{
+    background-color: #fff;
+}
+
+.bottom_fixed{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: white;
+}
+
+.margin_b20{
+    margin-bottom: 20px;
+}
+
+.margin_b40{
+    margin-bottom: 40px;
+}
+
+.margin_b10{
+    margin-bottom: 10px;
+}
+
+.border_style{
+    border: 1px solid #aaa;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.ml{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mt3{
+    margin-top: 3px;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.x_large{
+    font-size: x-large
+}
+
+
+.mt10{
+    margin-top: 10px !important;
+}
+
+.mt15{
+    margin-top: 15px !important;
+}
+
+.mt20{
+    margin-top: 20px !important;
+}
+
+.mt30{
+    margin-top: 30px ;
+}
+
+.mt70{
+    margin-top: 70px;
+    position: relative;
+}
+
+.mt50{
+    margin-top: 50px;
+    position: relative;
+}
+
+.mt220{
+    margin-top: 220px !important;
+}
+
+.mtn380{
+    margin-top: -380px !important;
+}
+
+.mt_n15{
+    margin-top: -15px !important;
+}
+
+.mr30{
+    margin-right: 30px;
+}
+
+
+.pt15{
+    padding-top: 15px;
+}
+
+.ml5{
+    margin-left: 5px;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+
+.title_nav{
+    font-size:17px;color:#2f2f3e;
+    opacity:0.88;
+}
+
+a{ text-decoration:none;color: black}
+
+.good_people{
+    font-size:13px;color:#6d6d85;
+    margin-top: 10px;
+    font-family: PingFangSC-Semibold;
+    font-size: 22px;
+    color: #46474B;
+    letter-spacing: 1.76px;
+    text-align: center;
+}
+
+.text_12_12{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text_12_6{
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.text_12_3{
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text_12_min{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text_12_4{
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+.container_msg{
+    margin-left: 7%;margin-right: 7%
+}
+
+.container_content{
+    background-color: #fff;padding-bottom: 30px
+}
+
+.text_msg_more{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #7A7E8B;
+    letter-spacing: 3.56px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text_msg_new{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #46474B;
+    letter-spacing: 4.57px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text_msg_more_wap{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #7A7E8B;
+    letter-spacing: 3.56px;
+    text-align: left;
+}
+
+.text_msg_new_wap{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #46474B;
+    letter-spacing: 4.57px;
+    text-align: left;
+}
+
+.our_link{
+    display: block; cursor: pointer !important;
+}
+
+.slim_content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.slim_content_20{
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+.main_content{
+    width: 100%;
+    height: 550px;
+}
+
+.saturn_logo_big{
+    margin-top: 200px;
+    line-height: 200px;
+}
+
+.plan_text{
+    width:279px;
+    height:42px;
+    font-size:20px;
+    letter-spacing: 9px;
+    font-family:PingFangSC-Light;
+    color:rgba(70,71,75,1);
+    line-height:42px;
+}
+
+.plan_text_wap{
+    width:142px;
+    height:20px;
+    font-size:14px;
+    letter-spacing: 4px;
+    font-family:PingFangSC-Light;
+    color:rgba(94,96,102,1);
+    line-height:20px;
+}
+
+.lunbo{
+    height: 600px;background-color: #fff;
+}
+
+
+.rectange{
+    width:147px;
+    height:32px;
+    border-radius:16px;
+    background-color: white;
+    border:1px solid rgba(70,71,75,1);
+}
+/*.main_back_wap{*/
+    /*background-origin:content-box;background-image: url("../images/main.png");background-repeat:no-repeat; background-size: auto 65%;-moz-background-size: auto 65%*/
+/*}*/
+
+/*.main_back{*/
+    /*background-origin:content-box;background-image: url("../images/main.png");background-repeat:no-repeat; background-size: 100%;-moz-background-size: 100%*/
+/*}*/
+
+
+.head_logo_img{
+    top:21px;margin-top: 1.25em !important;
+    padding-bottom: 5px;
+}
+
+.head_logo_img_wap{
+    top:21px;margin-top: 0.5em;padding-bottom: 5px;
+}

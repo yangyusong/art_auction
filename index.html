@@ -1,0 +1,300 @@
+<!doctype html>
+<head>
+    <title></title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="lib/jqueryui/jquery-ui.min.css">
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/zui.min.css">
+    <link rel="stylesheet" href="lib/calendar/zui.calendar.css">
+    <link rel="stylesheet" href="lib/datatable/zui.datatable.css">
+    <link rel="stylesheet" href="lib/datetimepicker/datetimepicker.css">
+    <link rel="stylesheet" href="lib/kindeditor/kindeditor.css">
+    <link rel="stylesheet" href="css/saturn.css">
+    <meta name="keywords" content="慈善 拍卖" />
+    <meta name="description" content="慈善拍卖" />
+
+</head>
+<div>
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="js/zui.min.js"></script>
+<!--<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<script src="js/underscore-min.js"></script>
+<script src="lib/calendar/zui.calendar.min.js"></script>
+<script src="lib/datatable/zui.datatable.js"></script>
+<script src="lib/datetimepicker/datetimepicker.min.js"></script>
+<script src="lib/kindeditor/kindeditor.min.js"></script>
+<script src="lib/jqueryui/jquery-ui.min.js"></script>
+
+<script src="lib/selectable/zui.selectable.min.js"></script>
+<script src="js/ejs.js"></script>
+<script src="js/tool.js"></script>
+<script src="js/init.js"></script>
+
+
+<header id="header">
+    <div class="navbar navbar-fixed-top" id="navbar" role="banner" style="padding-right: 9px;">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle  collapsed" type="button" data-toggle="collapse"
+                        data-target=".zui-navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class=" head_logo">
+                    <!--<img class="" src="images/3da0ff.png" style="left:308px;top:12px;margin-top: 1.25em;padding-bottom: 4px"-->
+                         <!--width="36" height="38">-->
+                &nbsp;&nbsp;&nbsp;<img class="center " src="images/logo.png"
+                                  style="margin: 0 auto; top:21px;width: 140px; margin-top: 0.8em;
+    padding-bottom: 5px;"      width="140" height="">
+
+                </span>
+
+            </div>
+            <nav class="collapse navbar-collapse zui-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right title_nav mt15">
+                    <li><a class="mr30 " href="#intro">
+                        <span> 愿景</span></a></li>
+                    <li><a class="mr30" title="" href="#plan"><span>拍卖列表</span></a></li>
+                    <li><a class="mr30" title="" href="#invest"><span> 投资机构</span></a></li>
+                    <li><a class="mr30" style="margin-right: 100px" title="" href="#contact"><span> 联系我们</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+</div>
+
+<div class="only_one">
+    <div class=" slim_content slim_content_control ">
+        <div class="center intro_next " >
+            <p class="" style=";font-size:32px;color:#46474B" name="intro" id="vision">愿景</p>
+
+            <p>&nbsp;</p>
+            <p class="text_12_any text_12_4" style=";font-size:19px;
+    letter-spacing: 5px;
+    ;color:#6a6a87">
+                愿景愿景愿景愿景愿景愿景愿景
+            </p>
+
+        </div>
+        <div class="center">
+            <img src="images/visoin.png" alt=""/>
+        </div>
+
+    </div>
+
+
+
+    <div class="center saturn_msgs" style="background-color: #F6F6F6;padding-bottom: 20px;padding-top: 1px;">
+        <div class="slim_content slim_content_control">
+            <div class="" style="font-size:32px;color:#46474B;opacity:0.88;;
+    margin-top: 60px"><a >项目</a></div>
+
+            <div class="remove_node ui_cell D3B30058A1D6" style="margin-top: 60px">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div onclick="jumpMsg()"
+                             class=" D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                            <div class="container_msg">
+                                <div class="our_link container_content wow lightSpeedIn">
+                                    <img class=" " src="images/msga.png"
+                                         width="100%">
+
+                                    <p class="text_msg_new">sfsfs<br></p>
+
+                                    <p class="text_msg_more">dfsfw
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p><button class="rectange">查看详细</button></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div onclick="jumpMsgB()"
+                             class=" D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                            <div class="container_msg">
+                                <div class="our_link container_content wow swing">
+                                    <img class=" " src="images/msgb.png"
+                                         width="100%">
+
+                                    <p class="text_msg_new">dsfw<br><br></p>
+
+                                    <p class="text_msg_more">fdgd
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p><button class="rectange">查看详细</button></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div onclick="jumpMsgC()"
+                             class=" D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                            <div class="container_msg">
+                                <div class="our_link container_content wow lightSpeedIn">
+                                    <img class=" " src="images/msgc.png"
+                                         width="100%">
+
+                                    <p class="text_msg_new">sfds<br><br></p>
+
+                                    <p class="text_msg_more">gyjt
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p><button class="rectange">查看详细</button></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="center core_page">
+        <p name="core" id="core" class=""
+           style="font-size:32px;color:#46474B">创始人</p>
+
+        <div class="remove_node ui_cell D3B30058A1D6">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow swing" src="images/wf.png"
+                             width="91" height="91">
+
+                        <p class="good_people" >sdfd
+                            dfde</p>
+
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb">
+                            erer</p>
+                    </div>
+                    <div class="F9A93CCB4F46 ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow swing" src="images/wf.png" width="91" height="91">
+                        <p class="good_people" >ere</p>
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb;">erew</p>
+
+                    </div>
+                    <div class="E82739B6BF30 ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow lightSpeedIn" src="images/wf.png"  width="91" height="91">
+                        <p class="good_people" >erew</p>
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb">fee</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="center">
+        <p name="invest" id="invest" class="" style=";font-size:32px;color:#46474B">投资人</p>
+
+        <div class="remove_node ui_cell D3B30058A1D6">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow swing" src="images/wf.png"
+                             width="91" height="91">
+
+                        <p class="good_people" >efs</p>
+
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb">
+                            dfew</p>
+                    </div>
+                    <div class="F9A93CCB4F46 ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow swing" src="images/wf.png" width="91" height="91">
+                        <p class="good_people" >fd</p>
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb;">erw</p>
+
+                    </div>
+                    <div class="E82739B6BF30 ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+                        <img class=" wow lightSpeedIn" src="images/wf.png"  width="91" height="91">
+                        <p class="good_people" >sfw</p>
+                        <p class="text_12_any text_12_4" style="font-size:18px;color:#acacbb">sfwwe</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="center" style="background-color: #4b5a77;padding-bottom: 10px">
+
+    <div class="remove_node ui_cell D3B30058A1D6">
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 20px;margin-top:20px">
+                <div style="padding-top: 20px;margin-top:20px;margin-bottom:20px" class="D1A3A3C3F04D ui_grid_cell col-xs-12 col-md-6 col-lg-4" >
+                    <!--<img class="" src="images/da4c07.png" width="36" height="38">-->
+                    <img class="" src="images/logo.png" width="200" height="48">
+
+                </div>
+                <div class="F9A93CCB4F46 ui_grid_cell col-xs-12 col-md-6 col-lg-4">
+
+                    <div class="remove_node ui_cell D3B30058A1D6">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div style="padding-top: 20px;margin-top:20px;margin-bottom:20px" class="E82739B6BF30 ui_grid_cell col-xs-6 col-md-6 col-lg-4">
+<span class="spanbor" id ="wx_rwm">
+                         <a href="###">
+                             <div class="imgbor imgbor2"></div>
+                             <div class="text"><img class="" src="images/4c426e.png" width="36" height="30"></div>
+                         </a>
+                         <div class="wx_rwm" >
+                             <img  src="ewm.jpg" width="100" height="100" />
+                         </div>
+                    </span>
+                                </div>
+                                <div style="padding-top: 20px;margin-top:20px;margin-bottom:20px" class="F9A93CCB4F46 ui_grid_cell col-xs-6 col-md-6 col-lg-4">
+                                    <a href="https://t.me/">
+                                        <div><img name="contact" id="contact" class="" src="images/28ca22.png" width="35" height="29"></div>
+                                    </a>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="E82739B6BF30 ui_grid_cell col-xs-12 col-md-6 col-lg-4 pull-right">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="" src="images/" width="109" height="109">
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="" style="margin-top:15px;padding-bottom: 10px ;font-size:12px;
+            font-family: PingFangSC-Medium;
+color: #E1E2E8;
+letter-spacing: 2px;
+text-align: center;">Copyright © meng</p>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/logic.js"></script>
+</body>
+</html>
